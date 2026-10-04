@@ -8,7 +8,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
-The first time I ran the game, it looked normal, with a title, a difficulty picker, a guess box and Submit/New Game buttons. Once I played, the hints didn't make sense: when my guess was too high, it told me to go higher. Sometimes the hint was wrong even when I followed it, which turned out to be because the secret became text on every even attempt. After I won once, clicking New Game still said "You already won," so I couldn't play again. All 3 pytest tests also failed with `NotImplementedError` because the logic functions in `logic_utils.py` were empty placeholders.
+The first time I ran the game, it looked normal, with a title, a difficulty picker, a guess box and Submit/New Game buttons. Once I played, the hints didn't make sense when my guess was too high, it told me to go higher. Sometimes the hint was wrong even when I followed it, which turned out to be because the secret became text on every even attempt. After I won once, clicking New Game still said "You already won," so I couldn't play again. All 3 pytest tests also failed with `NotImplementedError` because the logic functions in `logic_utils.py` were empty placeholders.
 
 **Bug Reproduction Log**
 
